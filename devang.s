@@ -39,5 +39,5 @@ equal:
 	
 end:
 	// Program termination
-	MOV R7, #1       // SYS_exit (system call number for exit)
+	MOV R7, #1       // (system call number for exit)
 	SWI 0            // Make a system call to terminate the program
